@@ -1,0 +1,27 @@
+.card {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.header-image {
+  background-size: cover;
+}
+
+.mat-card-header {
+  background-color: #e0e0e0;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.mat-card-header:hover {
+  background-color: #c6c6c6;
+}
+
+.mat-card-title {
+  color: black;
+}
+
+.mat-card-subtitle {
+  color: black;
+}

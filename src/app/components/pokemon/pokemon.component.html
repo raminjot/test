@@ -1,0 +1,24 @@
+<navbar></navbar>
+<div class="full-screen">
+  <body class="d-flex h-100">
+    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-center">
+      <main class="px-3">
+        <mat-card class="card">
+          <mat-card-header>
+            <img mat-card-avatar class="header-image" src="{{ pokemonImg }}">
+            <mat-card-title>{{ pokemon.name | titleUppercase }}</mat-card-title>
+            <mat-card-subtitle>Nº {{ pokemon.id }}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="{{ pokemonImg }}" alt="pokemon">
+          <mat-card-content>
+            <mat-chip-list>
+              <mat-chip color="primary">Type: {{ pokemonType }}</mat-chip>
+              <mat-chip color="primary">Height: {{ pokemon.height }}</mat-chip>
+              <mat-chip color="primary">Weight: {{ pokemon.weight }}</mat-chip>
+            </mat-chip-list>
+          </mat-card-content>
+        </mat-card>
+      </main>
+    </div>
+  </body>
+</div>

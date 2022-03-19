@@ -1,0 +1,36 @@
+<section class="full-screen">
+  <div class="mask d-flex align-items-center h-100 gradient-custom">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+          <div class="card">
+            <div class="card-body p-5">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-xl-7">
+                  <div class="text-center pt-md-5 pb-5 my-md-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                    </svg>
+                  </div>
+                </div>
+                <div class="col-md-6 col-xl-4 text-center">
+                  <h1 class="py-2">{{ title | titleUppercase }}</h1>
+                  <h5 class="py-2">Press the button to continue</h5>
+                  <form routerLink="/home">
+                    <input type="text" class="form-control my-4 py-2" placeholder="Username" />
+                    <input type="password" class="form-control my-4 py-2" placeholder="Password" />
+                    <div class="text-center mt-3">
+                      <button class="btn btn-primary">Login</button>
+                      <a href="#" class="nav-link">Already have an account?</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

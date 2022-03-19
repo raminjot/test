@@ -1,0 +1,15 @@
+.gradient-custom {
+  background: gainsboro;
+}
+
+.bi-person-circle {
+  width: 19em;
+  height: 19em;
+}
+
+@media (max-width: 991px) {
+  .bi-person-circle{
+    width: 12em;
+    height: 12em;
+  }
+}
